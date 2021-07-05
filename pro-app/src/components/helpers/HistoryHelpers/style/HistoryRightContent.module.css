@@ -1,0 +1,38 @@
+.container{
+    margin: 0%;
+    padding: 0%;
+    z-index: 2;
+    position: absolute;
+}
+.container h3 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 7.188vw;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 10;
+    margin-left: 28.125vw;
+    margin-top: 3.292vw;
+}
+.container h4 {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    color: #FC7A09;
+    font-size: 7.188vw;
+    
+}
+.content{
+    width: 30.052vw;
+    height: 20.729vw;
+    margin-left: 63.177vw;
+    margin-top: 11vw;
+    font-size: 1.406vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: #fff;
+
+}

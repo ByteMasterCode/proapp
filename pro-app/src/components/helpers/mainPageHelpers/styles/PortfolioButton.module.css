@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.Container{
+
+    margin-top:  15.839vw;
+    margin-left: 62.396vw;
+    z-index: 2;
+    position: absolute;
+    justify-content: center;
+    width: 26.042vw;
+    height: 52.083vw;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.square{
+        width: 2.083vw;
+        height: 2.083vw;
+        background-color: transparent;
+        position: absolute;
+        cursor: pointer;
+        margin-left: 0.208vw;    
+        border:  solid 0.333vw white ;
+        transition: 0.8s;
+        transform: rotateZ(45deg);
+    
+}
+.square:hover{
+    transform: rotateZ(180deg);
+    transition: 0.5s linear;
+}
+
+.square2{
+    width: 1.250vw;
+    height: 1.250vw;
+    background-color: white;
+    position: absolute;
+    margin-left: 0.938vw;   
+    margin-top: 0.781vw; 
+    
+    transform: rotateZ(45deg);
+
+}
+.halfCircleBorder{
+
+    width: 15.625vw;
+    height: 7.813vw; 
+    border-top-left-radius: 8.333vw;  
+    border-top-right-radius: 8.333vw; 
+    position: absolute;
+    margin-top: 30.234vw;
+    margin-left: -6.250vw;
+    border: 0.104vw   solid white;
+    border-bottom: 0;
+}
+
+.halfCircleBorderSolid{
+    width: 13.021vw;
+    height: 6.510vw; 
+    border-top-left-radius: 7.031vw;  
+    border-top-right-radius: 7.031vw; 
+    background-color: white;
+    position: absolute;
+    margin-top: 31.510vw;
+    margin-left: -4.948vw;
+    border-bottom: 0;
+}
+.Container h3 {
+    margin-top: 34.896vw;
+    margin-left: -1.042vw;
+    position: absolute;
+    font-size: 1.250vw;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.wall{
+    width: 0.167vw;
+    height: 27.167vw;
+    position: relative;
+    margin-left: 1.510vw;
+    margin-top: 3.021vw;
+    background-color: white;
+}

@@ -1,0 +1,92 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #D4D4D4;
+    position: relative;
+    z-index: 2;
+}
+.leftPart{
+    margin-top: 5.583vw;
+    margin-left: 4.844vw;
+    position: absolute;
+}
+
+.boxBorder{
+    width: 23.660vw;
+    height: 23.660vw;
+    background-color: transparent;
+    position: absolute;
+    border:  1.563vw solid #FF7070;
+}
+.designerImage{
+    width: 100%;
+    max-width: 31.406vw;
+    height: 100%;
+    max-height: 27vw;
+    margin-left: 4.2vw;
+    margin-top: 1.2vw;
+    position: absolute;
+    transform: scale(0.9);
+    background-repeat: no-repeat;
+    background-image: url('../../../../assets/img/4099028.png');
+}
+
+.discription{
+    width: 32.865vw;
+    height: 8.750vw;
+    font-size: 1.458vw;
+    color: #8F8F8F;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    margin-top: 33.490vw;
+
+}
+.horizontalLine{
+    width: 63.333vw;
+    height: 0.1vw;
+    position: absolute;
+    margin-left: -6vw;
+    background-color: white;
+}
+.circleContainer{
+    margin-left: 55.333vw;
+    margin-top: -5vw;
+    position: absolute;
+}
+.circleBorder{
+    width: 22.969vw;
+    height: 22.969vw;
+    background-color:transparent;
+    border: 0.1vw solid white;
+    border-radius: 15vw;
+    position: absolute;
+}
+.circleSolid{
+    width: 21.927vw;
+    height: 21.927vw;
+    border-radius: 15vw;
+    margin-left: 0.6vw;
+    margin-top: 0.5vw;
+    background-color: #03B773;
+}
+.verticalLine{
+    width: 0.1vw;
+    height: 40.1vw;
+    position: absolute;
+    margin-left: 40vw;
+    margin-top: -48vw;
+    background-color: white;
+   
+}
+.webDesignText{
+    position: absolute;
+    margin-top: 3.5vw;
+    margin-left: 20vw;
+    color: white;
+    font-size: 3.688vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.webDesignText span{
+    color: #03B773;
+}

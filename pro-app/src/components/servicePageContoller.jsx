@@ -1,0 +1,9 @@
+
+class  servicePageContoller{
+    servicePageContoller(){
+
+    }
+    pageController =  ()=>{
+
+     }
+}

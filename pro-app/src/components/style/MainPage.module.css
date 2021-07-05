@@ -1,0 +1,79 @@
+
+.Page{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  transition: 2s;
+background-color:#080808;
+  
+}
+.Circle {
+  width: 38.073vw;
+  height: 38.073vw ;
+  border-radius: 415px;
+  position: absolute;
+  border-color: white;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: transparent;
+  
+}
+.Circle2{
+  width:27.656vw;
+  height: 27.656vw;
+  border-radius: 315px;
+  margin-left: 5.365vw;
+  margin-top: 5.365vw;
+  position: absolute;
+  border-color: white;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: transparent;
+ 
+}
+.profitContainer{
+  width: 57.813vw;
+  height: 49.479vw;
+  margin-top: 5.729vw;
+  margin-left: 18.490vw;
+  position: absolute;
+  overflow: hidden;
+  justify-content: center;
+}
+.animationBox{
+  width: 10%;
+  height: 10%;
+  position: relative;
+  display: flexbox;
+  background-color: rebeccapurple;
+}
+
+.profitText h1{
+font-size: 6.6vw;
+position: absolute;
+margin-top: 10.417vw;
+font-family: 'Montserrat', sans-serif;
+text-transform: uppercase;
+letter-spacing: 10px;
+color: white;
+}
+.profitText2 h1{
+  font-size: 6.6vw;
+  position: absolute;
+  margin-top: 16.146vw;
+  margin-left: 9.479vw;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: white;
+  }
+.dots{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  display: flexbox;
+  border-radius: 5px;
+  margin: 2px;
+  background-color: seashell;
+}
+

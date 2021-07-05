@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+.leftBlock{
+    width: 62.188vw;
+    height: 44.635vw;
+    margin-top: 4.042vw;
+    position: absolute;
+    background-color: #171717;
+   
+    box-shadow: 11px 18px 94px #262626;
+}
+.textContainer{
+    width: 21vw;
+    height: 8.917vw;
+    margin-top: 2.073vw;
+    margin-left: 5.729vw;
+    position: absolute;
+}
+.solidHistory{
+    font-size: 3.281vw;
+    color: #FC7A09;
+    margin-left: 0.25vw;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    position: absolute;
+    font-weight: 600;
+}
+.borderHistory{
+    font-size: 4.375vw;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 2.1vw;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #FC7A09;
+}
+.contentBox{
+    display: inline-flex;
+}
+.contentImage{
+    width: 29.063vw;
+    height: 19.375vw;
+    margin-left: 3.542vw;
+    margin-top: 9.375vw;
+    background-color: thistle;
+}
+.contentText{
+    width: 23.854vw;
+    height: 22.292vw;
+    font-size: 1.406vw;
+    margin-left: 4.792vw;
+    margin-top: 8.844vw;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 40;
+    justify-content: center;
+}
+.leftBoxBottom{
+    width: 62.188vw;
+    height: 8.385vw;
+    margin-top: 5.1vw;
+}
+.bottomWall{
+    width: 36.771vw;
+    height: 0.15vw;
+    background-color: #FC7A09;
+}
+.bottomWall h3{
+    margin-left: 43.073vw;
+    margin-top: -1.4vw;
+    font-size: 1.927vw;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    color: #FCCB09;
+}
+.projectsContainer{
+    margin-top: 3.542vw;
+}
+.projectsContainer span {
+    font-size: 1.406vw;
+    margin-left: 3.958vw;
+    cursor: pointer;
+    color: #FC7A09;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    transition: 0.3s;
+    
+}
+.projectsContainer span:hover{
+    font-size: 1.600vw;
+    color:#FCCB09;
+    transition: 1s;
+}

@@ -1,0 +1,85 @@
+.container{
+        width: 55.365vw;
+        height: 39.948vw;
+        margin-left: 46vw;
+        position: absolute;
+        z-index: 3;
+}
+.caruselTitle:first-child{
+    font-size: 2.083vw;
+    margin-left: 0;
+    opacity: 1;
+}
+.titleContainer{
+    margin-top: 3.313vw;
+    position: absolute;
+}
+.caruselTitle{
+    color: #FF7070;
+    display: inline;
+    margin-left: 1vw;
+    font-size: 1.5vw;
+    transition: 0.4s;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    opacity: 0.5;
+}
+
+.caruselTitle:hover{
+    font-size: 2.083vw;
+    opacity: 1;
+}
+.contentContainer{
+    width: 41.667vw;
+    height: 31.250vw;
+    position: relative;
+    margin-top: 6.8vw;
+    display: inline-block;
+    overflow: hidden;
+}
+.contentList{
+    width: 41.667vw;
+    height: 31.250vw;
+    display: inline-block;
+  
+}
+.ruller{
+    width: max-content;
+    height: 31.250vw;
+    display: inline-block;
+    transition: 0.8s;
+}
+.listTitle{
+    margin-top: 1vw;
+    font-size: 4.260vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #FF7070;
+}
+.listTitleId{
+    margin-top: -10vw;
+    margin-left: 23vw;
+    font-size: 14.531vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    color:black;
+    opacity: 0.08;
+
+
+}
+.listContent{
+    margin-top: 7.083vw;
+    width:  29.250vw;
+    font-size: 1.458vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    color: #2A2A2A;
+
+}
+.caruselSize{
+    width: 41.667vw;
+    height: 31.250vw;
+}

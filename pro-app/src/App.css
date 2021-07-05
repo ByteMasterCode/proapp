@@ -1,0 +1,12 @@
+.Container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  display: flexbox;
+    
+} 
+#HorizantalBox{
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
